@@ -58,11 +58,12 @@ module.exports = function(grunt){
 					spawn: false,
 				},
 			},
-		    html: {    // You need a task, can be any string
-		        files: [   // Files to livereload on
-		            "**/*.html"
-		        ]
-		    }		 
+		    html: {    
+		        files: ["**/*.html"]
+		    },
+		    js: {    
+		        files: ["js/**/*.js"]
+		    }		    		 
 		},
 		cssmin: {
 			all: {

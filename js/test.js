@@ -1,3 +1,0 @@
-// I am the test JS File
-// I am grunt watching
-// grunt grunt grunt...
